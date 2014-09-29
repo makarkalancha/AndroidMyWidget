@@ -1,4 +1,11 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="300000"
+    android:widgetCategory="home_screen|keyguard"
+    >
+    <!--
     android:minWidth="40dp"
     android:minHeight="40dp"
     android:updatePeriodMillis="86400000"
@@ -6,6 +13,7 @@
     android:initialLayout="@layout/example_appwidget"
     android:configure="com.company.app.mywidget.ExampleAppWidgetConfigure"
     android:resizeMode="horizontal|vertical"
-    android:widgetCategory="home_screen|keyguard"
-    android:initialKeyguardLayout="@layout/example_keyguard">
+
+    android:initialKeyguardLayout="@layout/example_keyguard"
+    -->
     </appwidget-provider>
